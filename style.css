@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap");
+
+
+/*  
+-- Soft blue: hsl(215, 51%, 70%)
+-- Cyan: hsl(178, 100%, 50%)
+
+-- Very dark blue (main BG): hsl(217, 54%, 11%)
+-- Very dark blue (card BG): hsl(216, 50%, 16%)
+-- Very dark blue (line): hsl(215, 32%, 27%)
+-- White: hsl(0, 0%, 100%) // for h1 
+
+-- Font size (paragraph): 18px
+
+-- Font-Family: 'Outfit', sans-serif;
+*/
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    line-height: 1.5;
+}
+
+/* Section Card */
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 3em auto;
+    padding: 1.5em;
+    max-width: 18.75em;
+}
+
+/* Main Image */
+img {
+    background-size: cover;
+    border-radius: 10px;
+    max-width: 100%;
+    height: 18.75em;
+}
+
+/* Text */
+.heading {
+    margin: 0;
+    font-size: 1.7em;
+    color: hsl(0, 0%, 100%);
+}
+
+.main-p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%) ;
+    margin-top: 0.5em;
+    font-weight: 300;
+}
+
+.eth {
+    font-size: 650;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.eth , .time {
+    display: flex;
+    align-items: center;
+} 
+
+.eth-time {
+    display: flex;
+    align-items: row; 
+    justify-content: space-between; 
+}
+
+.img-eth, .img-clock {
+    margin-right: 0.4em;
+    height: 15px;
+    width: 15px;
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    border: 1px solid var(--White);
+    max-height: 2.5em;
+    margin-right: 1em;
+}
+
+.avatar-text {
+    margin: 0;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%) ;
+    
+}
+
+
+
+
+
+
+/* -- Footer signature -- */
+.attribution { font-size: 11px; text-align: center; color: var(--White);}
+.attribution a { color: hsl(228, 45%, 44%); }
